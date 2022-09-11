@@ -1,0 +1,70 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="-6dp"
+        android:left="-6dp"
+        android:right="-6dp"
+        android:bottom="0dp">
+
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:endColor="#000000"
+                android:startColor="#1B1B1B"
+                android:type="linear" />
+            <stroke
+                android:width="5dp"
+                android:color="#6E6E6E"/>
+        </shape>
+    </item>
+
+</layer-list>
+
+<!--<item android:top="-2dp" android:right="-2dp" android:left="-2dp">
+    <shape android:shape="rectangle" >
+        <size
+            android:width="82dp"
+            android:height="82dp" />
+        <solid android:color="#1bd4f6" />
+    </shape>
+    <shape
+        android:shape="rectangle">-->
+
+        <!--<gradient
+            android:angle="45"
+            android:centerX="float"
+            android:centerY="float"
+            android:endColor="#000000"
+            android:gradientRadius="integer"
+            android:startColor="#373737"
+            android:type="linear" />-->
+
+        <!--If your shape requires only one solid color-->
+        <!--<solid
+            android:color="#FFFFFF" />-->
+
+
+
+        <!--Use android:dashWidth="2dp" and android:dashGap="2dp"
+        to add dashes to your stroke-->
+        <!--<stroke
+            android:width="2dp"
+            android:color="#CFCFCF" />-->
+
+        <!--If you want to add padding-->
+        <!-- <padding
+             android:left="10dp"
+             android:top="20dp"
+             android:right="40dp"
+             android:bottom="8dp" />-->
+<!--
+    </shape>
+
+    <shape>
+        <solid android:color="@android:color/transparent" />
+        <stroke
+            android:dashGap="10px"
+            android:dashWidth="10px"
+            android:width="1dp"
+            android:color="#ababb2" />
+    </shape>
+</item>-->

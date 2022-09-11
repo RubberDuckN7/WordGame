@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primaryColor"
+        android:orientation="vertical">
+        <TextView
+            android:background="@color/secondaryDarkColor"
+            android:textColor="@color/primaryTextColor"
+            android:id="@+id/historyWordId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Word: derp"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/secondaryTextColor"
+            android:background="@color/secondaryColor"
+            android:id="@+id/historyDescriptionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description: derp is fine"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="24sp"
+            android:autoLink="web"
+            android:linksClickable="true"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
